@@ -1,4 +1,4 @@
-LabelImg
+VPIMT Software (VideoPerson_ImageMarked_Tool)
 ========
 
 .. image:: https://img.shields.io/pypi/v/labelimg.svg
@@ -7,9 +7,15 @@ LabelImg
 .. image:: https://img.shields.io/travis/tzutalin/labelImg.svg
         :target: https://travis-ci.org/tzutalin/labelImg
 
-LabelImg is a graphical image annotation tool.
+VPIMT   is a graphical image annotation tool.
 
 It is written in Python and uses Qt for its graphical interface.
+
+The software really extracts key frames from the video with pedestrians.
+
+And constructs pedestrian target data set according to the extracted pictures.
+
+It provides an efficient tool for the subsequent deep learning target recognition dataset construction.
 
 Annotations are saved as XML files in PASCAL VOC format, the format used
 by `ImageNet <http://www.image-net.org/>`__.
@@ -26,6 +32,9 @@ by `ImageNet <http://www.image-net.org/>`__.
 .. image:: https://github.com/17863958533/VPlabelImg_LYY/blob/master/demo/demo4.png
      :alt: Demo Image
 
+.. image:: https://github.com/17863958533/VPlabelImg_LYY/blob/master/demo/demo5.png
+     :alt: Demo Image
+
 `Watch a demo video <https://youtu.be/p0nR2YsCY_U>`__
 
 Installation
@@ -34,7 +43,7 @@ Installation
 Download prebuilt binaries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `Windows & Linux <https://tzutalin.github.io/labelImg/>`__
+-  `Windows & Linux <https://github.com/17863958533/VPlabelImg_LYY/>`__
 
 -  macOS. Binaries for macOS are not yet available. Help would be appreciated. At present, it must be `built from source <#macos>`__.
 
@@ -125,7 +134,7 @@ Open cmd and go to the `labelImg <#labelimg>`__ directory
     python labelImg.py
     python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
     
-Windows + Anaconda
+Windows + Anaconda(recommend by Author LYY)
 ^^^^^^^
 
 Download and install `Anaconda <https://www.anaconda.com/download/#download>`__ (Python 3+)
@@ -134,10 +143,14 @@ Open the Anaconda Prompt and go to the `labelImg <#labelimg>`__ directory
 
 .. code::
 
-    conda install pyqt=5
+    pip install pyqt=5
     pyrcc5 -o resources.py resources.qrc
+    pip install opencv-python
+    pip install qt-material
     python labelImg.py
     python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+
+    PS. If some other lib need to be installed, you can see the tips in the IDE(Pycharm).
 
 Get from PyPI
 ~~~~~~~~~~~~~~~~~
@@ -213,7 +226,7 @@ Create pre-defined classes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can edit the
-`data/predefined\_classes.txt <https://github.com/tzutalin/labelImg/blob/master/data/predefined_classes.txt>`__
+`data/predefined\_classes.txt <https://github.com/17863958533/VPlabelImg_LYY/blob/master/data/predefined_classes.txt>`__
 to load pre-defined classes
 
 Hotkeys
@@ -252,8 +265,10 @@ Send a pull request
 
 License
 ~~~~~~~
-`Free software: MIT license <https://github.com/tzutalin/labelImg/blob/master/LICENSE>`_
+`Free software: MIT license <https://github.com/17863958533/VPlabelImg_LYY/blob/master/LICENSE>`_
 
+Solemnly declare that:
+This project is a major software update and upgrade based on the following authors.
 Citation: Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
 
 Related
