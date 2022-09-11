@@ -49,6 +49,11 @@ Download prebuilt binaries
 
 -  macOS. Binaries for macOS are not yet available. Help would be appreciated. At present, it must be `built from source <#macos>`__.
 
+-  Please build a new temp file in your Desktop, and the filename is "VPData". And make sure that only one .mp4 file in it.
+
+.. image:: https://github.com/17863958533/VPlabelImg_LYY/blob/master/demo/demo6.png
+     :alt: Demo Image
+
 Build from source
 ~~~~~~~~~~~~~~~~~
 
