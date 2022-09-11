@@ -7,7 +7,9 @@ VPIMT Software (VideoPerson_ImageMarked_Tool)
 .. image:: https://img.shields.io/travis/tzutalin/labelImg.svg
         :target: https://travis-ci.org/tzutalin/labelImg
 
-VPIMT   is a graphical image annotation tool.
+Author: LYY || Department:Tongji University || Date:12_Sep_2022 first published
+
+VPIMT is a graphical image annotation tool.
 
 It is written in Python and uses Qt for its graphical interface.
 
