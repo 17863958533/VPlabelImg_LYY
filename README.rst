@@ -14,10 +14,16 @@ It is written in Python and uses Qt for its graphical interface.
 Annotations are saved as XML files in PASCAL VOC format, the format used
 by `ImageNet <http://www.image-net.org/>`__.
 
-.. image:: https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg
+.. image:: https://github.com/17863958533/VPlabelImg_LYY/blob/master/demo/demo1.png
      :alt: Demo Image
 
-.. image:: https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo.jpg
+.. image:: https://github.com/17863958533/VPlabelImg_LYY/blob/master/demo/demo2.png
+     :alt: Demo Image
+
+.. image:: https://github.com/17863958533/VPlabelImg_LYY/blob/master/demo/demo3.png
+     :alt: Demo Image
+
+.. image:: https://github.com/17863958533/VPlabelImg_LYY/blob/master/demo/demo4.png
      :alt: Demo Image
 
 `Watch a demo video <https://youtu.be/p0nR2YsCY_U>`__
