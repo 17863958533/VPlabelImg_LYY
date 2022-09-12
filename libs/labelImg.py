@@ -1632,11 +1632,10 @@ def get_main_app(argv=[]):
     """
     app = QApplication(argv)
     app.setApplicationName(__appname__)
-    app.setWindowIcon(newIcon("app"))
+    # app.setWindowIcon(newIcon("app"))
 
-    # 修改为我的logo
-    # ico_path = str(os.path.abspath('.')) + str('\\icons\\app.ico')
-    # app.setWindowIcon(QIcon(ico_path))
+    ico_path = str(os.path.abspath('.')) + str('\\icons\\app.ico')
+    app.setWindowIcon(QIcon(ico_path))
 
 
     # Tzutalin 201705+: Accept extra agruments to change predefined class file

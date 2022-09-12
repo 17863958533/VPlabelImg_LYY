@@ -148,6 +148,14 @@ Download and install `Anaconda <https://www.anaconda.com/download/#download>`__ 
 
 Open the Anaconda Prompt and go to the `labelImg <#labelimg>`__ directory
 
+What's more, you can find LYY's envfile in this link.
+
+You can copy all files in your anconda env, and the env name is 'python37my', the software IDE is Pycharm2021.2.3 + Anconda 4.10.3.
+
+Link: https://pan.baidu.com/s/1GiducLjOk0-UwYO_QU8erw?pwd=h723
+Code: h723
+
+
 .. code::
 
     pip install pyqt=5

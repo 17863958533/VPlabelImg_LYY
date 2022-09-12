@@ -3,11 +3,15 @@
 
 from setuptools import setup, find_packages
 from libs.version import __version__
+import os
 
-with open('README.rst') as readme_file:
+readme_path = str(os.path.abspath('.')) + str('\\README.rst')
+history_path = str(os.path.abspath('.')) + str('\\HISTORY.rst')
+
+with open(readme_path) as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
+with open(history_path) as history_file:
     history = history_file.read()
 
 requirements = [
